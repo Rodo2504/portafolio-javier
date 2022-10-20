@@ -1,0 +1,29 @@
+.proyectos{
+	min-height: 100vh;
+    background-color: black;
+	color: white;
+	width: 100%;
+	padding-bottom: 25px;
+}
+.main .card-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 25px;
+}
+.main .card{
+	/*width: 80%;*/
+	margin: 15px;
+	width: 30rem;
+	border-radius: 15px;
+	border: none;
+}
+.main .card img{
+	opacity: .5;
+	border-radius: 15px;
+	border: none;
+}
+.main .card img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
