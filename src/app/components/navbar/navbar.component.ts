@@ -17,6 +17,9 @@ export class NavbarComponent implements OnInit {
   toFormacion(){
     document.getElementById('formacion')?.scrollIntoView({behavior: "smooth"});
   }
+  toExperiencia(){
+    document.getElementById('experiencia')?.scrollIntoView({behavior: "smooth"});
+  }
   toSkills(){
     document.getElementById('skills')?.scrollIntoView({behavior: "smooth"});
   }
